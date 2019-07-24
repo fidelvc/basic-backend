@@ -6,7 +6,6 @@ const { getUsers, createUser, deleteUser } = require('../controllers/users.contr
 
 router.route('/')
     .get(getUsers)
-
     .post(createUser)
 
 
